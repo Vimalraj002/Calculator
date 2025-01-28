@@ -43,7 +43,7 @@ The **V-CALC** is a fully functional calculator web application that allows user
 4. **Calculate**: Evaluates the entered expression using a custom algorithm.
 
 ## Screenshots
-- Add screenshots of the calculator in action for better visualization (optional).
+![calculator](https://github.com/user-attachments/assets/738a8d08-b35e-4a72-9797-181c24f24006)
 
 ## Future Enhancements
 - Add support for more advanced mathematical operations (e.g., square root, percentage, etc.).

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="heading">
+            V-CALC
+        </div>
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="input-display" readonly>
+            </div>
+            <div class="buttons">
+                <button onclick="appendValue('1')">1</button>
+                <button onclick="appendValue('2')">2</button>
+                <button onclick="appendValue('3')">3</button>
+                <button class="operator-btn" onclick="appendValue('+')"><strong >+</strong></button>
+                <button onclick="appendValue('4')">4</button>
+                <button onclick="appendValue('5')">5</button>
+                <button onclick="appendValue('6')">6</button>
+                <button class="operator-btn" onclick="appendValue('-')"><strong>-</strong></button>
+                <button onclick="appendValue('7')">7</button>
+                <button onclick="appendValue('8')">8</button>
+                <button onclick="appendValue('9')">9</button>
+                <button class="operator-btn" onclick="appendValue('*')"><strong>*</strong></button>
+                <button onclick="appendValue('.')"><strong>.</strong></button>
+                <button onclick="appendValue('0')">0</button>
+                <button class="equals-btn" onclick="calculateResult()"><strong>=</strong></button>
+                <button class="operator-btn" onclick="appendValue('/')"><strong>/</strong></button>
+                <button class="clear-btn" onclick="clearDisplay()"><strong>C</strong></button>
+                <button class="backspace-btn" onclick="backSpace()"><i class="fas fa-backspace"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

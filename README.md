@@ -51,7 +51,7 @@ The **V-CALC** is a fully functional calculator web application that allows user
 - Enhance responsiveness for smaller devices.
 
 ## Credits
-Developed by **Vimalraj** (LostExplorer).
+Developed by **Vimalraj**.
 
 ## License
 This project is licensed under the MIT License - feel free to modify and use it.
